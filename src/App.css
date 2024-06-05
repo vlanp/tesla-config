@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-size: 2.5rem;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+header {
+  position: fixed;
+  height: 15vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+main {
+  height: 100vh;
+  padding-top: 15vh;
+}
+
+.config {
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  text-align: center;
+}
+
+.option {
+  padding: 2rem;
+  border: 2px solid lightgrey;
+  border-radius: 10rem;
+}
+.option:nth-child(2) {
+  margin-bottom: 2rem;
+}
+
+.selected {
+  border-color: blue;
+  font-weight: bold;
+}
+
+.total {
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.total button {
+  width: 10rem;
+  height: 4rem;
+  background-color: beige;
+  border-radius: 1rem;
+  font-size: 2.5rem;
+}/*# sourceMappingURL=App.css.map */
